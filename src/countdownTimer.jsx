@@ -1,6 +1,6 @@
 import React from "react";
 import { useCountdown } from "./hooks/useCountdown";
-import DateTimeDisplay from "/DateTimeDisplay";
+import DateTimeDisplay from "./DateTimeDisplay";
 import PropTypes from "prop-types";
 
 const countdownTimer = ({ targetDate }) => {
