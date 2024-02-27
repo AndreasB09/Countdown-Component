@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+// import React from 'react';
 import CountdownTimer from './CountdownTimer';
 
 export default function App() {
@@ -14,3 +14,4 @@ export default function App() {
     </div>
   );
 }
+

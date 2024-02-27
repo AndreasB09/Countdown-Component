@@ -1,9 +1,9 @@
-import React from "react";
+// import React from "react";
 import { useCountdown } from "./hooks/useCountdown";
 import DateTimeDisplay from "./DateTimeDisplay";
 import PropTypes from "prop-types";
 
-const countdownTimer = ({ targetDate }) => {
+const CountdownTimer = ({ targetDate }) => {
   const [days, hours, minutes, seconds] = useCountdown(targetDate);
 
   if (days + hours + minutes + seconds <= 0) {
@@ -51,4 +51,8 @@ ShowCounter.propTypes = {
   seconds: PropTypes.number.isRequired,
 };
 
-export default countdownTimer;
+CountdownTimer.propTypes = {
+  targetDate: PropTypes.instanceOf(Date).isRequired,
+};
+
+export default CountdownTimer;
