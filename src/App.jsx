@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <div>
-      <h1>Andreas plane leaves in..</h1>
+      <h1>Hey Universe</h1>
       <CountdownTimer targetDate={targetDate.getTime()} />
     </div>
   );
