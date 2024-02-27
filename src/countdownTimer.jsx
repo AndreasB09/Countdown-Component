@@ -2,6 +2,7 @@
 import { useCountdown } from "./hooks/useCountdown";
 import DateTimeDisplay from "./DateTimeDisplay";
 import PropTypes from "prop-types";
+import styles from "./CountdownTimer.module.css"
 
 const CountdownTimer = ({ targetDate }) => {
   const [days, hours, minutes, seconds] = useCountdown(targetDate);
@@ -31,7 +32,7 @@ const TimeoutNotice = () => {
 
 const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
-    <div className="show-counter">
+    <div className={styles.showcounter}>
       <DateTimeDisplay value={days} type={"Days"} isDanger={days} />
       <p>:</p>
       <DateTimeDisplay value={hours} type={"Hours"} isDanger={hours} />

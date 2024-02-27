@@ -3,14 +3,12 @@ import './App.css';
 import CountdownTimer from './CountdownTimer';
 
 export default function App() {
-  const threeDaysInMs = 3 * 24 * 60 * 60 * 1000;
-  const nowInMs = new Date().getTime();
-  const dateAfterThreeDays = nowInMs + threeDaysInMs;
+  const targetDate = new Date("2024-03-28T14:30:00");
 
   return (
     <div>
-      <h1>Countdown Timer</h1>
-      <CountdownTimer targetDate={dateAfterThreeDays} />
+      <h1>Andreas plane leaves in..</h1>
+      <CountdownTimer targetDate={targetDate.getTime()} />
     </div>
   );
 }

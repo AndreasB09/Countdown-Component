@@ -1,0 +1,8 @@
+.showcounter p {
+    color: blue;
+}
+
+.showcounter {
+    display: flex;
+    justify-content: center;
+}
