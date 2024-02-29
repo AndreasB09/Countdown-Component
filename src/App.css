@@ -2,6 +2,14 @@
 show-counter
 countdown */
 
-countdown p {
-    color: brown;
+body {
+    background-color: black;
+}
+
+.countdown {
+    color: white;
+}
+
+.countdown p {
+    color: white;
 }

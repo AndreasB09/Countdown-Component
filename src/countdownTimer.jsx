@@ -9,6 +9,10 @@ const CountdownTimer = ({ targetDate }) => {
     return null;
   }
 
+  //'ending to style when timer reaches zero
+  //if I wanna use module.css
+  //className={styles["display-counter"]}
+  //className={days <= 0 ? styles["countdown-ending"] : styles["countdown"]}
   return (
     <div className="display-counter">
       <div className={days <= 0 ? "countdown ending" : "countdown"}>
@@ -34,6 +38,7 @@ const CountdownTimer = ({ targetDate }) => {
   );
 };
 
+//eslint wouldn't accept my vaules without proptypes
 CountdownTimer.propTypes = {
   targetDate: PropTypes.instanceOf(Date).isRequired,
 };
