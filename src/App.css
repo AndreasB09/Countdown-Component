@@ -8,6 +8,9 @@ body {
 
 .countdown {
   color: white;
+  font-size: 5rem;
+  padding: 3rem;
+  text-align: center;
 }
 
 .countdown p {
