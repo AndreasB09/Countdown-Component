@@ -3,13 +3,26 @@ show-counter
 countdown */
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 .countdown {
-    color: white;
+  color: white;
 }
 
 .countdown p {
-    color: white;
+  color: white;
+}
+
+.show-counter .countdown {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
