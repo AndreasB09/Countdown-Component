@@ -1,6 +1,17 @@
 /* display-counter
 countdown */
 
+/* .special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
     background: #0f3854;
     /* background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
@@ -11,27 +22,39 @@ body {
 .countdown {
   color: white;
   text-align: center;
-  
+  margin: 1rem;
 }
 
 /* countdown timer */
 .countdown p {
   color: yellow;
+  font-size: 4rem;
 }
 
 /* days, hours, minutes, etc */
 .countdown span {
   color: green;
+  font-size: 2rem;
 }
 
 /* ':' */
 .divider {
   color: red;
+  font-size: 3rem;
+}
+
+.container {
+  font-family: "Special Elite", Arial, Helvetica, sans-serif;
+
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .display-counter {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
