@@ -1,37 +1,32 @@
-/* timeout-notice
-show-counter
+/* display-counter
 countdown */
 
 body {
     background: #0f3854;
-    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+    /* background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
     background-size: 100%;
-    height: 100%;
+    height: 100%; */
 }
 
 .countdown {
   color: white;
-  font-size: 5rem;
-  padding: 3rem;
   text-align: center;
+  
 }
 
+/* countdown timer */
 .countdown p {
   color: yellow;
 }
 
+/* days, hours, minutes, etc */
 .countdown span {
   color: green;
 }
 
+/* ':' */
 .divider {
   color: red;
-}
-
-.show-counter .countdown {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .display-counter {
