@@ -3,7 +3,10 @@ show-counter
 countdown */
 
 body {
-  background-color: black;
+    background: #0f3854;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+    background-size: 100%;
+    height: 100%;
 }
 
 .countdown {
@@ -14,7 +17,15 @@ body {
 }
 
 .countdown p {
-  color: white;
+  color: yellow;
+}
+
+.countdown span {
+  color: green;
+}
+
+.divider {
+  color: red;
 }
 
 .show-counter .countdown {

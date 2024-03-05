@@ -19,17 +19,17 @@ const CountdownTimer = ({ targetDate }) => {
         <p>{days}</p>
         <span>Days</span>
       </div>
-      <p>:</p>
+      <p className="divider">:</p>
       <div className={hours <= 0 ? "countdown ending" : "countdown"}>
         <p>{hours}</p>
         <span>Hours</span>
       </div>
-      <p>:</p>
+      <p className="divider">:</p>
       <div className={minutes <= 0 ? "countdown ending" : "countdown"}>
         <p>{minutes}</p>
         <span>Minutes</span>
       </div>
-      <p>:</p>
+      <p className="divider">:</p>
       <div className={seconds <= 0 ? "countdown ending" : "countdown"}>
         <p>{seconds}</p>
         <span>Seconds</span>
