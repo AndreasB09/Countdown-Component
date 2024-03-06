@@ -62,3 +62,66 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 610px) {
+  /* countdown timer */
+  .countdown p {
+  font-size: 2rem;
+  }
+
+  /* days, hours, minutes, etc */
+  .countdown span {
+  font-size: 1rem;
+  }
+
+  /* ':' */
+  .divider {
+  font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  /* countdown timer */
+  .countdown p {
+  font-size: 2rem;
+  }
+
+  /* days, hours, minutes, etc */
+  .countdown span {
+  font-size: 1rem;
+  }
+
+  /* ':' */
+  .divider {
+  font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  /* countdown timer */
+  .countdown p {
+  font-size: 1.5rem;
+  }
+
+  /* days, hours, minutes, etc */
+  .countdown span {
+  font-size: 0.75rem;
+  }
+
+  /* ':' */
+  .divider {
+  font-size: 0.75rem;
+  }
+
+  .title {
+    font-size: 0.8rem;
+  }
+}
