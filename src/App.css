@@ -20,10 +20,10 @@ html, body {
 }
 
 body {
-    background: #0f3854;
-    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 80%);
-    background-size: 100%;
-    height: 100%;
+  background: #0f3854;
+  background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 80%);
+  background-size: 100%;
+  height: 100%;
 }
 
 .countdown {
@@ -106,17 +106,14 @@ body {
 }
 
 @media screen and (max-width: 370px) {
-  /* countdown timer */
   .countdown p {
   font-size: 1.5rem;
   }
 
-  /* days, hours, minutes, etc */
   .countdown span {
   font-size: 0.75rem;
   }
 
-  /* ':' */
   .divider {
   font-size: 0.75rem;
   }
