@@ -3,6 +3,7 @@ import './App.css';
 import CountdownTimer from './CountdownTimer';
 
 export default function App() {
+  //set time to countdown
   const targetDate = new Date("2024-03-28T14:30:00");
 
   return (
