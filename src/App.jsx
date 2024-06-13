@@ -4,11 +4,11 @@ import CountdownTimer from './CountdownTimer';
 
 export default function App() {
   //set time to countdown
-  const targetDate = new Date("2024-03-28T14:30:00");
+  const targetDate = new Date("2024-06-13T15:00:00");
 
   return (
     <div className='container'>
-      <h1 className='title'>Countdown to Swedish Adventures</h1>
+      <h1 className='title'>Countdown: Summer Party!</h1>
       <CountdownTimer targetDate={targetDate.getTime()} />
     </div>
   );
