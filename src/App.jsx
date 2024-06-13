@@ -8,7 +8,7 @@ export default function App() {
 
   return (
     <div className='container'>
-      <h1 className='title'>Countdown: Summer Party!</h1>
+      <h1 className='title'>Countdown : Summer Party!</h1>
       <CountdownTimer targetDate={targetDate.getTime()} />
     </div>
   );
