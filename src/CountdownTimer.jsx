@@ -15,13 +15,11 @@ const CountdownTimer = ({ targetDate }) => {
   //className={days <= 0 ? styles["countdown-ending"] : styles["countdown"]}
   return (
     <div className="display-counter">
-      {/*
       <div className={days <= 0 ? "countdown ending" : "countdown"}>
         <p>{days}</p>
         <span>Days</span>
       </div>
       <p className="divider">:</p>
-      */}
       <div className={hours <= 0 ? "countdown ending" : "countdown"}>
         <p>{hours}</p>
         <span>Hours</span>
